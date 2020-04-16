@@ -15,6 +15,10 @@ The basic simple embedded operating system help to adopt an object oriented appr
 
 When car is sensed on the side-road, the traffic light sequence remain for some seconds while giving priority to the main road cars but 
 soon change to amber and then green on the side-road for allloted minutes before returning priority to the main road. When car is again sensed on the side  road, it switch back to it but after a minimum time of passage of car is reached on the main road. This is implemented by the expression if ((++Time_in_state >= GREEN_DURATION)& (car_sensor == ON)) in traffic_light.c  file.
+
+Here is the Implementation on board:
+
+![Implementation on board](Traffic_Light.gif)
      
       
 
